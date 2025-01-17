@@ -73,7 +73,7 @@ img {
  font-family: 'Raleway', sans-serif;
  font-size: 18px;
  font-weight: 700;
- color: #404bbf;
+ color: #4D5AE5;
  text-decoration: none;
  text-transform: uppercase;
  line-height: 1.17;
@@ -96,8 +96,11 @@ img {
 
 .page-nav-item {
   position: relative;
-  list-style-type: none;
-  color: #404bbf;
+
+}
+
+.page-nav .hover {
+  color: #404BBF;
 }
 
 .page-nav .link {
@@ -107,7 +110,9 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #404BBF;
   color: #2E2F42;
+  list-style-type: none;
   text-decoration: none;
   font-weight: 500;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -166,6 +171,7 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
 }
+
 
  /* .contacts-list .contacts-list-item + .contacts-list-item { 
   margin-left: 40px;
@@ -561,6 +567,25 @@ margin-bottom: 0px;
   margin: 0;
   list-style: none;
 }
+
+.social-link-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  fill: #f4f4fd;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.social-link-footer:hover, .social-link-footer:focus {
+  background-color: #31d0aa;
+  }
 
 .footer-logo {
   display: inline-block;
