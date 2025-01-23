@@ -97,9 +97,23 @@ img {
 .page-nav-item {
   position: relative;
 }
-.link {
+.link-studio {
   color: #404bbf;
 } 
+
+.page-nav .link-studio {
+  position: relative;
+  display: block;
+  padding: 24px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #404bbf;
+  list-style-type: none;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .page-nav .link {
   position: relative;
   display: block;
@@ -122,7 +136,7 @@ img {
  text-decoration: none;
 }
 
-.page-nav-item .link::after {
+.page-nav-item .link-studio::after {
   content: "";
   position: absolute;
   bottom: -1px; 
@@ -207,7 +221,6 @@ img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  
   text-align: center;
  }
 
@@ -444,11 +457,6 @@ img {
 .social-link:hover, .social-link:focus {
 background-color: #404bbf;;
 }
-
-/* .social-svg {
-  width: 16px;
-  height: 16px;
-} */
 
 /* 4 section - partfolio */
 
